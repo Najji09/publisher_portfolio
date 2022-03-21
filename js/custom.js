@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let img = document.querySelectorAll('div.gallery figure img');
   let popup = document.querySelector('div.popup');
   let popupImage = document.querySelector('div.popup img');
-  let close = document.querySelector('div.popup a');
+  let close = document.querySelector('div.popup');
   let wrap = document.querySelector('#wrap');
   console.log(page);
   let navClassAdd = (i) => {
